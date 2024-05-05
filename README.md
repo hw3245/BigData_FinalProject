@@ -31,11 +31,11 @@ The analysis is based on the 'Motor Vehicle Collisions - Crashes' dataset from N
 
 ## Setup and Installation
 
-To run these notebooks, you will need to have access to the following datasets, which are included in this repository:
+To run these notebooks, you will need to have access to the following datasets, :
 
-1. **Motor Vehicle Collisions - Crashes**: This dataset contains details about every motor vehicle collision in NYC reported by the police through the NYPD's TrafficStat reporting system.
+1. **Motor Vehicle Collisions - Crashes**: This dataset contains details about every motor vehicle collision in NYC reported by the police through the NYPD's TrafficStat reporting system. Please download the dataset from [here](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data) and place it in the root directory of the project folder.
 
-2. **NYC Zip Code Tabulation Areas Polygons**: This geospatial data is necessary for mapping and geospatial analysis. It provides the polygon shapes of NYC zip codes and can be used to overlay collision data geographically.
+2. **NYC Zip Code Tabulation Areas Polygons**: This geospatial data is necessary for mapping and geospatial analysis. It provides the polygon shapes of NYC zip codes and can be used to overlay collision data geographically. This dataset is included in this repository.
 
 ### Prerequisites
 

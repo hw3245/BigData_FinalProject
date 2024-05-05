@@ -28,3 +28,9 @@ The analysis is based on the 'Motor Vehicle Collisions - Crashes' dataset from N
 - **Machine Learning:** Spark MLlib
 - **Data Visualization:** Matplotlib, Seaborn
 - **Programming Language:** Python
+
+## Setup and Installation
+- **Python Installation:** Ensure Python 3.6 or later is installed. Download from [Python.org](https://www.python.org/downloads/).
+- **Library Installation:** Install required Python libraries using pip:
+  ```bash
+  pip install pyspark numpy pandas matplotlib seaborn

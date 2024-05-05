@@ -14,7 +14,7 @@ The project is divided into multiple parts, each handled in separate Jupyter not
 1. **bigdata_project_part1&2.ipynb**
    - **Content:** This notebook covers the initial data processing, exploratory data analysis, and spatial analysis of the crash data. It provides insights into the distribution of accidents across different boroughs and identifies key hotspots.
 
-2. **bigdata_project_3.ipynb**
+2. **bigdata_project_part3.ipynb**
    - **Content:** Focuses on temporal analysis of accidents, examining patterns over different time scales (daily, weekly, monthly) and during specific high-risk periods such as holidays and rush hours.
 
 3. **bigdata_project_part4.ipynb**
@@ -30,6 +30,17 @@ The analysis is based on the 'Motor Vehicle Collisions - Crashes' dataset from N
 - **Programming Language:** Python
 
 ## Setup and Installation
+
+To run these notebooks, you will need to have access to the following datasets, which are included in this repository:
+
+1. **Motor Vehicle Collisions - Crashes**: This dataset contains details about every motor vehicle collision in NYC reported by the police through the NYPD's TrafficStat reporting system.
+
+2. **NYC Zip Code Tabulation Areas Polygons**: This geospatial data is necessary for mapping and geospatial analysis. It provides the polygon shapes of NYC zip codes and can be used to overlay collision data geographically.
+
+### Prerequisites
+
+- Google Colab
+- Access to Google Drive (for data storage and direct data reading in Colab)
 - **Python Installation:** Ensure Python 3.6 or later is installed. Download from [Python.org](https://www.python.org/downloads/).
 - **Library Installation:** Install required Python libraries using pip:
   ```bash
